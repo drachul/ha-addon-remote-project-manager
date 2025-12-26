@@ -1,0 +1,44 @@
+name: Remote Project Manager
+slug: remote_project_manager
+description: Manage remote Docker Compose projects over SSH.
+url: https://github.com/drachul/remote-project-manager
+version: "0.1.5"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: services
+boot: auto
+init: false
+ingress: false
+panel_icon: mdi:server-network
+panel_title: Remote Project Manager
+webui: http://[HOST]:[PORT:8000]
+ports:
+  8000/tcp: 8000
+ports_description:
+  8000/tcp: Web UI / API
+map:
+  - data:rw
+  - ssl:ro
+  - share:rw
+options:
+  app_port: 8000
+  db_path: /data/state.db
+  log_level: info
+  secret_seed: "change-me-to-something-more-random"
+  state_refresh_seconds: 300
+  update_refresh_seconds: 720
+  ssl_certfile: ""
+  ssl_keyfile: ""
+  ssl_ca_certs: ""
+schema:
+  app_port: int?
+  db_path: str?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
+  secret_seed: str
+  state_refresh_seconds: int?
+  update_refresh_seconds: int?
+  ssl_certfile: str?
+  ssl_keyfile: str?
+  ssl_ca_certs: str?
