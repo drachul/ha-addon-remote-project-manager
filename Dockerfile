@@ -15,6 +15,7 @@ RUN if command -v apt-get >/dev/null 2>&1; then \
             python3 \
             python3-pip \
             python3-venv \
+            rsync \
             python3-dev \
             build-essential \
             libffi-dev \
@@ -27,6 +28,7 @@ RUN if command -v apt-get >/dev/null 2>&1; then \
             python3 \
             py3-pip \
             py3-virtualenv \
+            rsync \
             python3-dev \
             build-base \
             libffi-dev \

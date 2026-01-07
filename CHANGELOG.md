@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Bump add-on and upstream release to 0.2.0.
+
 ## 0.1.2
 
 - Add configurable `db_path` to allow storing the database in `/share`.
