@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.0
+
+- Install docker client in the add-on image.
+- Bump add-on and upstream release to 0.3.0.
+
 ## 0.2.0
 
 - Bump add-on and upstream release to 0.2.0.
