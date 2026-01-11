@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+- Remove docker and SSH client installs from the add-on image.
+- Bump add-on and upstream release to 0.4.0.
+
 ## 0.3.0.1
 
 - Install SSH client in the add-on image.

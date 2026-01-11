@@ -16,8 +16,6 @@ RUN if command -v apt-get >/dev/null 2>&1; then \
             python3-pip \
             python3-venv \
             rsync \
-            docker.io \
-            openssh-client \
             python3-dev \
             build-essential \
             libffi-dev \
@@ -31,8 +29,6 @@ RUN if command -v apt-get >/dev/null 2>&1; then \
             py3-pip \
             py3-virtualenv \
             rsync \
-            docker-cli \
-            openssh-client \
             python3-dev \
             build-base \
             libffi-dev \
