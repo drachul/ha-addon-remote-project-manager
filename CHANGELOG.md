@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0.1
+
+- Install SSH client in the add-on image.
+
 ## 0.3.0
 
 - Install docker client in the add-on image.
