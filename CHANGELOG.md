@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+- Bump add-on and upstream release to 2.0.0.
+
 ## 1.0.0
 
 - Bump add-on and upstream release to 1.0.0.
