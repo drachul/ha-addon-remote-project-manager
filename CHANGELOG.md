@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.1
+
+- Bump add-on and upstream release to 2.3.1.
+
 ## 2.3.0
 
 - Bump add-on and upstream release to 2.3.0.
