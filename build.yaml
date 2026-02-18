@@ -3,4 +3,4 @@ build_from:
   aarch64: ghcr.io/home-assistant/aarch64-base:latest
   armv7: ghcr.io/home-assistant/armv7-base:latest
 args:
-  RPM_VERSION: v2.1.0
+  RPM_VERSION: v2.2.0
