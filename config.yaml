@@ -2,7 +2,7 @@ name: Remote Project Manager
 slug: remote_project_manager
 description: Manage remote Docker Compose projects over SSH.
 url: https://github.com/drachul/remote-project-manager
-version: "2.2.0"
+version: "2.3.0"
 arch:
   - amd64
   - aarch64
